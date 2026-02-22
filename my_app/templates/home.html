@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{ my_title }}</h1>
+    <p>Welcome to my Django project. Use the links below to navigate:</p>
+    
+    <ul>
+        <li>
+            <a href="{% url 'contact form' %}">Go to Contact Form</a>
+        </li>
+        <li>
+            <a href="{% url 'submissions list' %}">View All Submissions (Inbox)</a>
+        </li>
+    </ul>
+{% endblock %}

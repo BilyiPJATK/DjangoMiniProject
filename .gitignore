@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Database (Don't share your local data)
+db.sqlite3
+
+# IDE files
+.idea/
+.vscode/
+
+# Environment variables (if you use them later)
+.env
